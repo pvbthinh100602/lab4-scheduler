@@ -80,7 +80,6 @@ void led5test(){
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -106,10 +105,10 @@ int main(void)
   HAL_TIM_Base_Start_IT(&htim2);
   SCH_Init();
   SCH_Add_Task(led1test,50,800);
-  SCH_Add_Task(led2test,50,400);
-  SCH_Add_Task(led3test,50,200);
-  SCH_Add_Task(led4test,50,100);
-  SCH_Add_Task(led5test,50,50);
+  SCH_Add_Task(led2test,60,400);
+  SCH_Add_Task(led3test,70,200);
+  SCH_Add_Task(led4test,80,100);
+  SCH_Add_Task(led5test,90,50);
   /* USER CODE END 2 */
 
   /* Infinite loop */
