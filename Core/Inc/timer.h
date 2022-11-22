@@ -10,6 +10,7 @@
 
 #include "main.h"
 #include "scheduler.h"
+#include "button.h"
 
 #define TIMER_CYCLE 10
 
